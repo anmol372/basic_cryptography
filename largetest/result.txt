@@ -1,0 +1,155 @@
+Results of Large Size File Test
+\n
+Current Content of Directory
+ComputerSecurityHW2.py largetestfile result.txt
+\n
+Encryption and Decryption of a file using AES in CBC mode with 128bits key
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+--- 4872 nanoseconds to generate key using AESNI for CBC mode.
+AES CBC Encryption
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 21203 nanoseconds to encrypt using AESNI in CBC mode.
+--- Encryption Speed per byte ((Time Taken To Encrypt)/(Size of File)) = 0.002022071024922886.
+AES CBC Decryption
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 115210214 nanoseconds to decrypt using AESNI in CBC mode.
+--- Decryption Speed per byte ((Time Taken To Encrypt)/(Size of File)) = 10.987243529735787.
+
+Correct Encryption and Decryption as Input File "largetestfile" and Decrypted file "decryptedFileAES_CBClargetestfile" match.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Encryption and Decryption of a file using AES in CTR mode with 128bits key
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 6482 nanoseconds to generate key using AESNI for CTR mode
+AES CTR 128bits Encryption
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 30911962 nanoseconds to encrypt using AESNI in CTR mode.
+--- Encryption Speed per byte ((Time Taken To Encrypt)/(Size of File)) = 2.9479876755042826.
+AES CTR 128bits Decryption
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 26844641 nanoseconds to decrypt using AESNI in CTR mode.
+--- Decryption Speed per byte ((Time Taken To Encrypt)/(Size of File)) = 2.5600966526896585.
+
+Correct Encryption and Decryption as Input File "largetestfile" and Decrypted file "decryptedFileAES_CTR_128largetestfile" match.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Encryption and Decryption of a file using AES in CTR mode with 256bits key
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 7503 nanoseconds to generate key using AESNI for CTR mode
+AES CTR 256bits Encryption
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 35039391 nanoseconds to encrypt using AESNI in CTR mode.
+--- Encryption Speed per byte ((Time Taken To Encrypt)/(Size of File)) = 3.3416090775854244.
+AES CTR 256bits Decryption
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 31196904 nanoseconds to decrypt using AESNI in CTR mode.
+--- Decryption Speed per byte ((Time Taken To Encrypt)/(Size of File)) = 2.975159530152801.
+
+Correct Encryption and Decryption as Input File "largetestfile" and Decrypted file "decryptedFileAES_CTR_256largetestfile" match.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Hash of File using SHA256
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 27546920 nanoseconds to calculate SHA256 of file.
+--- SHA256 per byte speed ((Time Taken To Hash)/(Size of File)) = 2.6270729971168585.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Hash of File using SHA512
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 16632023 nanoseconds to calculate SHA512 of file.
+--- SHA512 per byte speed ((Time Taken To Hash)/(Size of File)) = 1.5861496860892805.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Hash of File using SHA3_256
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 27034732 nanoseconds to calculate sha3_256 of file.
+--- sha3_256 per byte speed ((Time Taken To Hash)/(Size of File)) = 2.5782270548391995.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Encryption and Decryption of a file using 2048bit RSA with PKCS1_OAEP 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 0.12828683853149414 nanoseconds to generate keys for RSA
+RSA 2048bit Encryption
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 30399279560 nanoseconds to encrypt using RSA with OAEP and keysize 2048
+--- Encryption Speed per byte ((Time Taken To Encrypt)/(Size of File)) = 2899.094579861649.
+RSA 2048bit Decryption
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 97050268302 nanoseconds to decrypt using RSA with OAEP and keysize 2048
+--- Decryption Speed per byte ((Time Taken To Encrypt)/(Size of File)) = 4591.509950278413.
+
+Correct Encryption and Decryption as Input File "largetestfile" and Decrypted file "RSA_2048_decrypt_OAEP_Paddinglargetestfile" match.
+
+Encryption and Decryption of a file using 3072bit RSA with PKCS1_OAEP 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 1.2578964233398438 nanoseconds to generate keys for RSA
+RSA 3072bit Encryption
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 53366552396 nanoseconds to encrypt using RSA with OAEP and keysize 3072
+--- Encryption Speed per byte ((Time Taken To Encrypt)/(Size of File)) = 5089.419388764827.
+RSA 2048bit Decryption
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 241613745305 nanoseconds to decrypt using RSA with OAEP and keysize 3072
+--- Decryption Speed per byte ((Time Taken To Encrypt)/(Size of File)) = 7620.6000258189915.
+
+Correct Encryption and Decryption as Input File "largetestfile" and Decrypted file "RSA_3072_decrypt_OAEP_Paddinglargetestfile" match.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Sign and verify a file using 2048bit DSA
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+--- 185519463 nanoseconds to generate DSA key.
+Sign a file using 2048bit DSA
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 417349 nanoseconds to sign file.
+Verify a file using 2048bit DSA
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The message is authentic
+--- 611488 nanoseconds to verify file.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Sign and verify a file using 3072bit DSA
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+--- 11939311983 nanoseconds to generate DSA key.
+Sign a file using 3072bit DSA
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 749354 nanoseconds to sign file.
+Verify a file using 3072bit DSA
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The message is authentic
+--- 1287480 nanoseconds to verify file.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+“n”
+“Contents in Directory”
+blocksize ComputerSecurityHW2.py decryptedFileAES_CBClargetestfile decryptedFileAES_CTR_128largetestfile decryptedFileAES_CTR_256largetestfile dsa_key_2048.pem dsa_key_3072.pem encryptedFileAES_CBClargetestfile encryptedFileAES_CTR_128largetestfile encryptedFileAES_CTR_256largetestfile hashDigestSHA256 hashDigestSHA3_256 hashDigestSHA512 keys largetestfile result.txt RSA_2048_decrypt_OAEP_Paddinglargetestfile RSA_2048_encrypt_OAEP_Paddinglargetestfile RSA_3072_decrypt_OAEP_Paddinglargetestfile RSA_3072_encrypt_OAEP_Paddinglargetestfile

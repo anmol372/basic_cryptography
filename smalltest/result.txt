@@ -1,0 +1,155 @@
+Output of Small Size File
+\n
+Current Contect of Directory
+ComputerSecurityHW2.py result.txt smallfile.txt
+\n
+Encryption and Decryption of a file using AES in CBC mode with 128bits key
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+--- 8036 nanoseconds to generate key using AESNI for CBC mode.
+AES CBC Encryption
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 13077 nanoseconds to encrypt using AESNI in CBC mode.
+--- Encryption Speed per byte ((Time Taken To Encrypt)/(Size of File)) = 11.572566371681416.
+AES CBC Decryption
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 28258 nanoseconds to decrypt using AESNI in CBC mode.
+--- Decryption Speed per byte ((Time Taken To Encrypt)/(Size of File)) = 24.360344827586207.
+
+Correct Encryption and Decryption as Input File "smallfile.txt" and Decrypted file "decryptedFileAES_CBCsmallfile.txt" match.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Encryption and Decryption of a file using AES in CTR mode with 128bits key
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 3681 nanoseconds to generate key using AESNI for CTR mode
+AES CTR 128bits Encryption
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 43886 nanoseconds to encrypt using AESNI in CTR mode.
+--- Encryption Speed per byte ((Time Taken To Encrypt)/(Size of File)) = 38.83716814159292.
+AES CTR 128bits Decryption
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 16962 nanoseconds to decrypt using AESNI in CTR mode.
+--- Decryption Speed per byte ((Time Taken To Encrypt)/(Size of File)) = 14.905096660808436.
+
+Correct Encryption and Decryption as Input File "smallfile.txt" and Decrypted file "decryptedFileAES_CTR_128smallfile.txt" match.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Encryption and Decryption of a file using AES in CTR mode with 256bits key
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 3125 nanoseconds to generate key using AESNI for CTR mode
+AES CTR 256bits Encryption
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 12284 nanoseconds to encrypt using AESNI in CTR mode.
+--- Encryption Speed per byte ((Time Taken To Encrypt)/(Size of File)) = 10.870796460176992.
+AES CTR 256bits Decryption
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 10340 nanoseconds to decrypt using AESNI in CTR mode.
+--- Decryption Speed per byte ((Time Taken To Encrypt)/(Size of File)) = 9.086115992970123.
+
+Correct Encryption and Decryption as Input File "smallfile.txt" and Decrypted file "decryptedFileAES_CTR_256smallfile.txt" match.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Hash of File using SHA256
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 11465 nanoseconds to calculate SHA256 of file.
+--- SHA256 per byte speed ((Time Taken To Hash)/(Size of File)) = 10.146017699115044.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Hash of File using SHA512
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 5274 nanoseconds to calculate SHA512 of file.
+--- SHA512 per byte speed ((Time Taken To Hash)/(Size of File)) = 4.667256637168141.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Hash of File using SHA3_256
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 10792 nanoseconds to calculate sha3_256 of file.
+--- sha3_256 per byte speed ((Time Taken To Hash)/(Size of File)) = 9.550442477876107.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Encryption and Decryption of a file using 2048bit RSA with PKCS1_OAEP 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 0.19330215454101562 nanoseconds to generate keys for RSA
+RSA 2048bit Encryption
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 3673474 nanoseconds to encrypt using RSA with OAEP and keysize 2048
+--- Encryption Speed per byte ((Time Taken To Encrypt)/(Size of File)) = 3250.861946902655.
+RSA 2048bit Decryption
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 10773621 nanoseconds to decrypt using RSA with OAEP and keysize 2048
+--- Decryption Speed per byte ((Time Taken To Encrypt)/(Size of File)) = 4676.05078125.
+
+Correct Encryption and Decryption as Input File "smallfile.txt" and Decrypted file "RSA_2048_decrypt_OAEP_Paddingsmallfile.txt" match.
+
+Encryption and Decryption of a file using 3072bit RSA with PKCS1_OAEP 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 0.4758162498474121 nanoseconds to generate keys for RSA
+RSA 3072bit Encryption
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 5811126 nanoseconds to encrypt using RSA with OAEP and keysize 3072
+--- Encryption Speed per byte ((Time Taken To Encrypt)/(Size of File)) = 5142.589380530973.
+RSA 2048bit Decryption
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 25312716 nanoseconds to decrypt using RSA with OAEP and keysize 3072
+--- Decryption Speed per byte ((Time Taken To Encrypt)/(Size of File)) = 7324.28125.
+
+Correct Encryption and Decryption as Input File "smallfile.txt" and Decrypted file "RSA_3072_decrypt_OAEP_Paddingsmallfile.txt" match.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Sign and verify a file using 2048bit DSA
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+--- 2763603045 nanoseconds to generate DSA key.
+Sign a file using 2048bit DSA
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 434826 nanoseconds to sign file.
+Verify a file using 2048bit DSA
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The message is authentic
+--- 706680 nanoseconds to verify file.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Sign and verify a file using 3072bit DSA
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+--- 1811754055 nanoseconds to generate DSA key.
+Sign a file using 3072bit DSA
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+--- 830592 nanoseconds to sign file.
+Verify a file using 3072bit DSA
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The message is authentic
+--- 1398793 nanoseconds to verify file.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+“n”
+“Contents in Directory”
+blocksize ComputerSecurityHW2.py decryptedFileAES_CBCsmallfile.txt decryptedFileAES_CTR_128smallfile.txt decryptedFileAES_CTR_256smallfile.txt dsa_key_2048.pem dsa_key_3072.pem encryptedFileAES_CBCsmallfile.txt encryptedFileAES_CTR_128smallfile.txt encryptedFileAES_CTR_256smallfile.txt hashDigestSHA256 hashDigestSHA3_256 hashDigestSHA512 keys result.txt RSA_2048_decrypt_OAEP_Paddingsmallfile.txt RSA_2048_encrypt_OAEP_Paddingsmallfile.txt RSA_3072_decrypt_OAEP_Paddingsmallfile.txt RSA_3072_encrypt_OAEP_Paddingsmallfile.txt smallfile.txt
