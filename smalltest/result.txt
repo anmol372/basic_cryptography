@@ -147,7 +147,7 @@ Verify a file using 3072bit DSA
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The message is authentic
---- 1398793 nanoseconds to verify file.
+---  nanoseconds to verify file.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 “n”

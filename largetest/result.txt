@@ -1,7 +1,7 @@
 Results of Test File
 \n
 Current Content of Directory
-blocksize ComputerSecurityHW2.py decryptedFileAES_CBClargetestfile decryptedFileAES_CTR_128largetestfile decryptedFileAES_CTR_256largetestfile dsa_key_2048.pem dsa_key_3072.pem encryptedFileAES_CBClargetestfile encryptedFileAES_CTR_128largetestfile encryptedFileAES_CTR_256largetestfile hashDigestSHA256 hashDigestSHA3_256 hashDigestSHA512 keys largetestfile result.txt RSA_2048_decrypt_OAEP_Paddinglargetestfile RSA_2048_encrypt_OAEP_Paddinglargetestfile RSA_3072_decrypt_OAEP_Paddinglargetestfile RSA_3072_encrypt_OAEP_Paddinglargetestfile
+ComputerSecurityHW2.py  largetestfile
 \n
 Encryption and Decryption of a file using AES in CBC mode with 128bits key
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
