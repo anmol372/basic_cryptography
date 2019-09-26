@@ -377,7 +377,7 @@ if len(sys.argv) < 2:
 
 
 # Using AESNI in CBC Mode:
-print("Encryption and Decryption of a file using AES in CBC mode with 128bits key")
+print("\nEncryption and Decryption of a file using AES in CBC mode with 128bits key")
 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n")
 aes_cbc = aesCBC()
 print("AES CBC Encryption")
@@ -389,7 +389,7 @@ aes_cbc.decrypt()
 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n")
 
 # Using AESNI128 in CTR MODE
-print("Encryption and Decryption of a file using AES in CTR mode with 128bits key")
+print("\nEncryption and Decryption of a file using AES in CTR mode with 128bits key")
 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n")
 aes_ctr128 = aesCTR(16)
 print("AES CTR 128bits Encryption")
@@ -401,7 +401,7 @@ aes_ctr128.decrypt()
 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n")
 
 # Using AESNI256 in CTR MODE
-print("Encryption and Decryption of a file using AES in CTR mode with 256bits key")
+print("\nEncryption and Decryption of a file using AES in CTR mode with 256bits key")
 print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n")
 aes_ctr128 = aesCTR(32)
 print("AES CTR 256bits Encryption")
